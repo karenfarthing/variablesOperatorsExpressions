@@ -114,7 +114,34 @@ namespace VariablesOperatorsExpressions
             int studentsPerBus = (numStudents - studentsInCars) / numBuses;
             Console.WriteLine("The number of students in each bus is " + studentsPerBus);
 
-            //example 2-2 aliyah spent
+            //example 2-2 aliyah had $24 to spend on 7 pencils. after buying she had $10. How much did she start with?
+            float aliyahStartAmt = 24.00f;
+            float aliyahFinalAmt = 10.00f;
+            int numPencils = 7;
+            float costPencils = (aliyahStartAmt - aliyahFinalAmt) / numPencils;
+            Console.WriteLine("each pencil costs $" + costPencils);
+
+            //example 2-3 The sum of 3 consecutive numbers is 42. What is the smallest number?
+            int numberTotal = 72;
+            int numberSmallest = (numberTotal - 3) / 3;
+            Console.WriteLine("The smallest number is " + numberSmallest);
+
+            //example 2-4 The sum of 3 consecutive even numbers is 
+            int numberTotal2 = 48;
+            int numberSmallestEven = (numberTotal2 - 6) / 3;
+            Console.WriteLine("The smallest of three even numbers is " + numberSmallestEven);
+
+            //example 2-5 Maria bought seven boxes. A week later half of all her boxes were destroyed in a fire. 
+            //There are now only 22 boxes left. With how many did she start?
+            int finalBoxes = 22;
+            int boxesBought = 7;
+            int startBoxes = finalBoxes * 2 - boxesBought;
+            Console.WriteLine("Maria started with " + startBoxes + " boxes");
+
+            
+
+
+
 
 
 
