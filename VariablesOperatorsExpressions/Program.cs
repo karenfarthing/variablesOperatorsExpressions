@@ -170,6 +170,24 @@ namespace VariablesOperatorsExpressions
             Console.WriteLine("Maria started with " + startBoxes + " boxes");
             Console.WriteLine(" ");
 
+            //Console.ReadLine() returns a string, no matter what type of data it is - it may need to be converted
+            Console.WriteLine("Please enter your age.");
+            int userAge = int.Parse(Console.ReadLine());
+            Console.WriteLine(userAge + 10);
+            //could also do double.Parse or float.Parse  If it cannot be changed into that type, it will give an error
+
+            //Conditionals - if x then y
+            if (userAge < 17);
+            {
+                Console.WriteLine ("sorry, you aren't old enough to see this movie")
+            }
+            else (userAge >== 17);
+            {
+                Console.WriteLine("welcome to the movie!");
+
+            }
+
+
 
 
 
