@@ -54,20 +54,26 @@ namespace VariablesOperatorsExpressions
             //Jessica is 23 years old.
             //Sam is 47.
             // Jessica is younger than Sam.
-
+            /*
             int jessicaAge = 23;
             int samAge = 47;
             Console.WriteLine("Is Jessica younger than Sam?");
             Console.WriteLine(jessicaAge < samAge);//returns a boolean value of true or false
+            Console.WriteLine(" ");
+
 
             //example 2 - mike and 3 friends want to decide bill evenly, each person paid $13 what was total bill?
             int billShare = 13;
             int numFriends = 4;
             Console.WriteLine("The total bill was (two different ways)");
+            Console.WriteLine(" ");
+
 
             Console.WriteLine(billShare * numFriends);
             int totalBill = billShare * numFriends; //another way to do this same thing
             Console.WriteLine(totalBill);
+            Console.WriteLine(" ");
+
 
 
             //example 3 - lisa is cooking muffins. recipe needs 7 c. sugar. She already put in 2 c. how many left?
@@ -75,18 +81,24 @@ namespace VariablesOperatorsExpressions
             int sugarIn = 2;
             int sugarLeft = sugarTotal - sugarIn;
             Console.WriteLine("The amount of sugar remaining is " + sugarLeft);
+            Console.WriteLine(" ");
+
 
             //example 4 - how many packages of diapers can you buy with $40 if each is $8
             float costDiapers = 8.00f;
             float totalMoney = 40.00f;
             float numDiapers = totalMoney / costDiapers;
             Console.WriteLine("You can buy " + numDiapers + " packages of diapers");
+            Console.WriteLine(" ");
+
 
             //example 5 - last friday Trevon had $29. over the weekend he cleaned the attic. He now has $41. How much did he receive?
             float startMoney = 29.00f;
             float nowMoney = 41.00f;
             float moneyMade = nowMoney - startMoney;
             Console.WriteLine("Trevor made $" + moneyMade);
+            Console.WriteLine(" ");
+
 
             //example 6 - Julia ran 30 miles more than pranav. Julia ran 47 miles. How many miles did Pranav run?
 
@@ -94,18 +106,24 @@ namespace VariablesOperatorsExpressions
             double juliaRunMoreThanPranav = 30d;
             double pranavRun = juliaRun - juliaRunMoreThanPranav;
             Console.WriteLine("Pranav ran " + pranavRun + " miles");
+            Console.WriteLine(" ");
+
 
             //example 7 mow many boxes of envelopes can you buy with $12 if one box costs $3
             float envelopeCost = 3.00f;
             float totalMoney7 = 12.00f;
             float canBuy = totalMoney7 / envelopeCost;
             Console.WriteLine("You can buy " + canBuy + " boxes of envelopes");
+            Console.WriteLine(" ");
+
 
             //example 8 after paying $5.12 for a salad Norachai has $57.10. How much did he have to start?
             float saladCost = 5.12f;
             float norachaiFinalAmt = 57.10f;
             float norachaiStartAmt = norachaiFinalAmt + saladCost;
             Console.WriteLine("start amount was $" + norachaiStartAmt);
+            Console.WriteLine(" ");
+
 
             //example page 2-1 331 students went on a field trip there were 6 buses and 7 students left in cars. how many people per bus?
             int numStudents = 331;
@@ -113,6 +131,7 @@ namespace VariablesOperatorsExpressions
             int studentsInCars = 7;
             int studentsPerBus = (numStudents - studentsInCars) / numBuses;
             Console.WriteLine("The number of students in each bus is " + studentsPerBus);
+            Console.WriteLine(" ");
 
             //example 2-2 aliyah had $24 to spend on 7 pencils. after buying she had $10. How much did she start with?
             float aliyahStartAmt = 24.00f;
@@ -120,16 +139,28 @@ namespace VariablesOperatorsExpressions
             int numPencils = 7;
             float costPencils = (aliyahStartAmt - aliyahFinalAmt) / numPencils;
             Console.WriteLine("each pencil costs $" + costPencils);
-
-            //example 2-3 The sum of 3 consecutive numbers is 42. What is the smallest number?
+            Console.WriteLine(" ");
+            */
+            //example 2-3 The sum of 3 consecutive numbers is 72. What is the smallest number?
             int numberTotal = 72;
             int numberSmallest = (numberTotal - 3) / 3;
             Console.WriteLine("The smallest number is " + numberSmallest);
+            Console.WriteLine(" ");
 
-            //example 2-4 The sum of 3 consecutive even numbers is 
+            //example 2-4 The sum of 3 consecutive even numbers is 48. what is the smallest
             int numberTotal2 = 48;
-            int numberSmallestEven = (numberTotal2 - 6) / 3;
-            Console.WriteLine("The smallest of three even numbers is " + numberSmallestEven);
+            int numberConsecutiveEven = 3;
+            int numberSmallestEven = (numberTotal2 - 2*numberConsecutiveEven) / numberConsecutiveEven;
+            Console.WriteLine("Example 2-4 The sum of " + numberConsecutiveEven +" consecutive even numbers is 48. what is the smallest?");
+            Console.WriteLine("The smallest of " + numberConsecutiveEven +" even numbers is " + numberSmallestEven);
+            Console.WriteLine(" ");
+
+            //example 2-4 The sum of 3 consecutive even numbers is 48. what is the smallest - another way
+            int numberTotal3 = 48;
+            int numberConsecutiveEven3 = 3;
+            int avgEvenNum = numberTotal3 / numberConsecutiveEven3;
+            int numberSmallEven3 = avgEvenNum - 2;
+            Console.WriteLine(numberSmallEven3);
 
             //example 2-5 Maria bought seven boxes. A week later half of all her boxes were destroyed in a fire. 
             //There are now only 22 boxes left. With how many did she start?
@@ -137,8 +168,9 @@ namespace VariablesOperatorsExpressions
             int boxesBought = 7;
             int startBoxes = finalBoxes * 2 - boxesBought;
             Console.WriteLine("Maria started with " + startBoxes + " boxes");
+            Console.WriteLine(" ");
 
-            
+
 
 
 
